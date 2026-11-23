@@ -1,0 +1,9 @@
+# Dependencias del notebook baseline_v9.ipynb
+# Versiones con las que se verificó la corrida completa: ver la tabla "Versiones probadas" del README.
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+xlrd>=2.0.1        # para leer el .xls original de UCI
+shap>=0.44          # opcional: sección 7.6bis y figuras 8-9; sin él, el notebook corre igual
+jupyter            # sólo para correrlo en local; Colab ya lo trae
